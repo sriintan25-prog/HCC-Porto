@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portofolio personal Intan — software developer specializing in modern web experiences."
+    />
+    <title>Intan | Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <nav class="nav container" aria-label="Main navigation">
+          <a href="#home" class="brand" aria-label="Intan home">
+            <span class="brand-mark">I</span>
+            <span>intan.dev</span>
+          </a>
+
+          <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <div class="nav-actions">
+            <button class="theme-toggle" id="themeToggle" aria-label="Switch theme">
+              <span class="theme-icon">☀️</span>
+            </button>
+            <a href="#contact" class="button button-primary">Hire Me</a>
+          </div>
+        </nav>
+      </header>
+
+      <main id="home">
+        <section class="hero container">
+          <div class="hero-copy">
+            <p class="eyebrow">Hi, I'm Intan</p>
+            <h1>
+              I build <span class="text-gradient">clean, fast</span>
+              digital experiences.
+            </h1>
+            <p class="lead">
+              Software developer focused on building modern web apps, scalable interfaces,
+              and thoughtful user experiences that help products grow.
+            </p>
+
+            <div class="cta-row">
+              <a href="#projects" class="button button-primary">Lihat Proyek</a>
+              <a href="resume.pdf" class="button button-secondary" download>Unduh CV</a>
+            </div>
+
+            <ul class="social-links" aria-label="Social media">
+              <li><a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a></li>
+              <li><a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a></li>
+              <li><a href="mailto:hello@intan.dev">Email</a></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Profile illustration">
+            <div class="profile-card">
+              <div class="profile-glow"></div>
+              <div class="avatar-shell">
+                <div class="avatar">IN</div>
+              </div>
+              <div class="profile-meta">
+                <span class="status-badge">Available for work</span>
+                <p>Frontend • Backend • Product Thinking</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="stats container" aria-label="Highlights">
+          <div class="stat-item">
+            <strong>4+</strong>
+            <span>Years Experience</span>
+          </div>
+          <div class="stat-item">
+            <strong>18</strong>
+            <span>Projects Delivered</span>
+          </div>
+          <div class="stat-item">
+            <strong>8</strong>
+            <span>Happy Clients</span>
+          </div>
+          <div class="stat-item">
+            <strong>100%</strong>
+            <span>Responsive Design</span>
+          </div>
+        </section>
+
+        <section id="about" class="section container">
+          <div class="section-heading">
+            <p class="eyebrow">About me</p>
+            <h2>Building products with clarity and purpose.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-card">
+              <p>
+                I'm a software developer who enjoys turning ideas into polished digital products.
+                I focus on user-centered design, maintainable code, and smooth product experiences
+                from prototype to launch.
+              </p>
+              <p>
+                My work spans web applications, interface systems, and product-focused engineering,
+                often blending design sensibility with technical execution.
+              </p>
+            </div>
+
+            <div class="about-card accent-card">
+              <h3>Work philosophy</h3>
+              <ul>
+                <li>Ship with purpose and clarity</li>
+                <li>Design for real user impact</li>
+                <li>Build experiences that scale</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills" class="section container">
+          <div class="section-heading">
+            <p class="eyebrow">Tech stack & skills</p>
+            <h2>Tools I use to design and ship.</h2>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <h3>Frontend</h3>
+              <div class="tag-list">
+                <span>React</span>
+                <span>Next.js</span>
+                <span>TypeScript</span>
+                <span>Tailwind</span>
+              </div>
+            </article>
+
+            <article class="skill-card">
+              <h3>Backend</h3>
+              <div class="tag-list">
+                <span>Node.js</span>
+                <span>REST API</span>
+                <span>GraphQL</span>
+                <span>PostgreSQL</span>
+              </div>
+            </article>
+
+            <article class="skill-card">
+              <h3>Tools & DevOps</h3>
+              <div class="tag-list">
+                <span>Git</span>
+                <span>Docker</span>
+                <span>Vercel</span>
+                <span>Figma</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="projects" class="section container">
+          <div class="section-heading">
+            <p class="eyebrow">Featured projects</p>
+            <h2>Selected work that reflects my process.</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-image project-one"></div>
+              <div class="project-body">
+                <h3>Finora Dashboard</h3>
+                <p>
+                  A transactional analytics dashboard that helps teams monitor revenue, user churn,
+                  and operational health in one place.
+                </p>
+                <div class="tag-list small">
+                  <span>React</span>
+                  <span>Tailwind</span>
+                  <span>Charting</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://example.com" target="_blank" rel="noreferrer">Live Demo</a>
+                  <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image project-two"></div>
+              <div class="project-body">
+                <h3>Northstar Commerce</h3>
+                <p>
+                  A conversion-focused storefront interface designed to simplify shopping journeys and
+                  improve mobile checkout performance.
+                </p>
+                <div class="tag-list small">
+                  <span>Next.js</span>
+                  <span>TypeScript</span>
+                  <span>SEO</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://example.com" target="_blank" rel="noreferrer">Live Demo</a>
+                  <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image project-three"></div>
+              <div class="project-body">
+                <h3>FlowBoard</h3>
+                <p>
+                  A collaborative workflow board for cross-functional teams to manage tasks, sprint
+                  updates, and blockers visually.
+                </p>
+                <div class="tag-list small">
+                  <span>Node.js</span>
+                  <span>PostgreSQL</span>
+                  <span>UI/UX</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://example.com" target="_blank" rel="noreferrer">Live Demo</a>
+                  <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="experience" class="section container">
+          <div class="section-heading">
+            <p class="eyebrow">Experience</p>
+            <h2>Track record across product and engineering.</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-period">2023 — Present</span>
+                <h3>Senior Frontend Developer</h3>
+                <p>Led UI implementation for product dashboards and customer-facing features.</p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-period">2021 — 2023</span>
+                <h3>Web Developer</h3>
+                <p>Built responsive interfaces, internal tools, and design systems for growing teams.</p>
+              </div>
+            </article>
+
+            <article class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-period">2019 — 2021</span>
+                <h3>Product & UI Engineer</h3>
+                <p>Worked on product research, prototypes, and feature delivery for digital services.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="section container contact-section">
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something valuable together.</h2>
+          </div>
+
+          <div class="contact-grid">
+            <form class="contact-form" id="contactForm">
+              <div class="input-group">
+                <label for="name">Nama</label>
+                <input id="name" name="name" type="text" placeholder="Nama Anda" required />
+              </div>
+
+              <div class="input-group">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="email@contoh.com" required />
+              </div>
+
+              <div class="input-group">
+                <label for="message">Pesan</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tuliskan kebutuhan Anda..." required></textarea>
+              </div>
+
+              <button type="submit" class="button button-primary">Kirim Pesan</button>
+            </form>
+
+            <aside class="contact-card">
+              <div class="availability">
+                <span class="dot"></span>
+                Open for opportunities
+              </div>
+              <a href="mailto:hello@intan.dev">hello@intan.dev</a>
+              <p>
+                Available for freelance projects, product design collaboration, and full-time roles.
+              </p>
+            </aside>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
